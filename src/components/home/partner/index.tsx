@@ -63,20 +63,6 @@ import logo75 from "./images/logo-7-5.png";
 import { useI18n } from "@/hooks";
 import styles from "./styles.module.scss";
 
-// const logos = [
-//   [logo11, logo21, logo31],
-//   [logo41, logo51, logo12],
-//   [logo22, logo32, logo42],
-//   [logo52, logo13, logo23],
-//   [logo33, logo43, logo53],
-//   [logo14, logo24, logo34],
-//   [logo44, logo54, logo15],
-//   [logo25, logo35, logo45],
-//   [logo55, logo16, logo26],
-//   [logo36, logo46, logo56],
-//   [logo17, logo27, logo37],
-//   [logo47, logo57],
-// ];
 const logos = [
   [logo11, logo21, logo31, logo41, logo51, logo61],
   [logo12, logo22, logo32, logo42, logo52, logo62],
