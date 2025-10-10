@@ -46,6 +46,20 @@ import logo55 from "./images/logo-5-5.png";
 import logo56 from "./images/logo-5-6.png";
 import logo57 from "./images/logo-5-7.png";
 
+import logo61 from "./images/logo-6-1.png";
+import logo62 from "./images/logo-6-2.png";
+import logo63 from "./images/logo-6-3.png";
+import logo64 from "./images/logo-6-4.png";
+import logo65 from "./images/logo-6-5.png";
+import logo66 from "./images/logo-6-6.png";
+import logo67 from "./images/logo-6-7.png";
+
+import logo71 from "./images/logo-7-1.png";
+import logo72 from "./images/logo-7-2.png";
+import logo73 from "./images/logo-7-3.png";
+import logo74 from "./images/logo-7-4.png";
+import logo75 from "./images/logo-7-5.png";
+
 import { useI18n } from "@/hooks";
 import styles from "./styles.module.scss";
 
@@ -64,21 +78,21 @@ import styles from "./styles.module.scss";
 //   [logo47, logo57],
 // ];
 const logos = [
-  [logo11, logo21, logo31, logo41, logo51],
-  [logo12, logo22, logo32, logo42, logo52],
-  [logo13, logo23, logo33, logo43, logo53],
-  [logo14, logo24, logo34, logo44, logo54],
-  [logo15, logo25, logo35, logo45, logo55],
-  [logo16, logo26, logo36, logo46, logo56],
-  [logo17, logo27, logo37, logo47, logo57],
+  [logo11, logo21, logo31, logo41, logo51, logo61],
+  [logo12, logo22, logo32, logo42, logo52, logo62],
+  [logo13, logo23, logo33, logo43, logo53, logo63],
+  [logo14, logo24, logo34, logo44, logo54, logo64],
+  [logo15, logo25, logo35, logo45, logo55, logo65],
+  [logo16, logo26, logo36, logo46, logo56, logo66],
+  [logo17, logo27, logo37, logo47, logo57, logo67],
 
-  [logo11x, logo21, logo31, logo41, logo51],
-  [logo12, logo22, logo32, logo42, logo52],
-  [logo13, logo23, logo33, logo43, logo53],
-  [logo14, logo24, logo34, logo44, logo54],
-  [logo15, logo25, logo35, logo45, logo55],
-  [logo16, logo26, logo36, logo46, logo56],
-  [logo17, logo27, logo37x, logo47, logo57],
+  [logo11x, logo21, logo31, logo41, logo51, logo71],
+  [logo12, logo22, logo32, logo42, logo52, logo72],
+  [logo13, logo23, logo33, logo43, logo53, logo73],
+  [logo14, logo24, logo34, logo44, logo54, logo74],
+  [logo15, logo25, logo35, logo45, logo55, logo75],
+  [logo16, logo26, logo36, logo46, logo56, logo26],
+  [logo17, logo27, logo37x, logo47, logo57, logo27],
 ];
 
 export const Partner = memo(() => {
