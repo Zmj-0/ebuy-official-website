@@ -28,10 +28,7 @@
     @apply text-[#575555] font-[700] text-[26px]
 }
 .ecode{
-    @apply w-[120px] 
-}
-.googlePlay{
-    @apply w-[258px] md:my-[32px] my-0 mx-[24px] md:mx-0
+     @apply w-[258px] md:my-[32px] my-0 mx-[24px] md:mx-0
 }
 
 @media screen and (min-width: 768.1px) and (max-width: 1070px) {
@@ -51,13 +48,9 @@
         @apply flex-row items-end mt-[63px]
     }
     .ecode{
-        @apply  mt-0
+        @apply my-0 mx-[24px]
     }
     .content2{
         flex-direction: column-reverse !important;
-    }
-    
-    .googlePlay{
-        @apply my-0 mx-[24px]
     }
 }
